@@ -5,7 +5,7 @@ use warnings;
 if(@ARGV !=6){
   print "Usage: perl $0 xx.fa b100k.txt 100_80k.txt 80_60k.txt l60k.txt stat_out.txt\n";
   print "\nAttention: This script aimed at calculating the numbers of reads that >100k,100k-80k,80k-60k,<60k and extract their corresponding sequences\n";
-  print "\n##############################################################################\n";
+
 }
 
 my %seq_hash;
