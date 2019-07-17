@@ -1,6 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 use warnings;
+#by jmxia
 
 if(@ARGV !=6){
   print "Usage: perl $0 xx.fa b100k.txt 100_80k.txt 80_60k.txt l60k.txt stat_out.txt\n";
